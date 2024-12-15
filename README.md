@@ -9,14 +9,16 @@ Currently, two official plugins are available:
 
 ## Expanding the ESLint configuration
 
-Run Application on development mode
+How to Run Application?
 
 -   npm run dev
+-   open url http://localhost:5173/GlobalSync/ on browser
 
 Run Application on production mode
 
 -   npm run build
 -   npm run preview
+-   Open url http://localhost:4173/GlobalSync/ on browser
 
 ## Expanding the ESLint configuration
 
