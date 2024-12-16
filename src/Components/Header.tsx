@@ -1,8 +1,8 @@
 import { FormControlLabel, Switch } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { useContext, useEffect, useState } from "react";
-import { ModeContext, ModeType } from "../App";
 import { DARK_THEME, LIGHT_THEME } from "../utils/colors";
+import { ModeContext, ModeType } from "./ThemeProvider";
 
 const StyledHeader = styled("header")<{ mode: ModeType }>(({ mode }) => ({
 	display: "flex",

@@ -1,7 +1,7 @@
 import { styled } from "@mui/material/styles";
 import { useContext } from "react";
-import { ModeContext, ModeType } from "../App";
 import { DARK_THEME, LIGHT_THEME } from "../utils/colors";
+import { ModeContext, ModeType } from "./ThemeProvider";
 
 const StyledFooter = styled("footer")<{ mode: ModeType }>(({ mode }) => ({
 	padding: "10px 20px 30px",
