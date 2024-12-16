@@ -23,7 +23,7 @@ const Header = () => {
 
 	return (
 		<StyledHeader mode={mode}>
-			<h3>Global Sync</h3>
+			<h3>Theme Switcher</h3>
 			<FormControlLabel
 				sx={{ display: "block" }}
 				control={

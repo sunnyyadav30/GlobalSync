@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import { Box } from "@mui/material";
 import { useContext } from "react";
 import { DARK_THEME, LIGHT_THEME } from "./utils/colors";
+import { ModeContext } from "./Components/ThemeProvider";
 
 const StyledApp = styled(Box)<{ mode: "light" | "dark" }>(({ mode }) => ({
 	width: "100%",
